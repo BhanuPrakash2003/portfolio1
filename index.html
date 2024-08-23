@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <div class="profile-container">
+        <img src="photo.jpeg" alt="Bhanu Prakash" class="profilephoto">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Myself Bhanu Prakash Solege.I am pursuing B.Tech in RGMCET college,Nandyal.I am studying in Electronics and Communication Engineering branch.I completed my +2 in Sri Chaitanya Junior college,Kurnool.I completed my SSC in Sri Chaitanya school.</p>
+    </section>
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <div class="project-image" style="background-image: url('project1.jpg');"></div>
+            <div class="project-info">
+                <h3>Project 1</h3>
+                <p>Title of Project 1</p>
+                <p>The number guessing game using the Python language</p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-image" style="background-image: url('project2.jpg');"></div>
+            <div class="project-info">
+                <h3>Project 2</h3>
+                <p>Title of Project 2</p>
+                <p>The password generator using Python</p>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
